@@ -46,7 +46,9 @@ After you go through all the queries, print the stack from top to bottom in the 
     3. Fast Food
 You have a fast-food restaurant, and the food you are offering is previously prepared.
 Write a program that checks if you have enough food to serve lunch to all your customers. You also want to know who the client with the biggest order for that day is.
-First, you will be given the quantity of the food you have for the day (an integer number). Next, you will be given a sequence of integers (separated by a single space), each representing the quantity of food in each order. Keep the orders in a queue.
+First, you will be given the quantity of the food you have for the day (an integer number).
+Next, you will be given a sequence of integers (separated by a single space), each representing the quantity of food in each order.
+Keep the orders in a queue.
 Find the biggest order and print it. Next, you will begin servicing your clients from the first one that came. Before each order, check if you have enough food left to complete it:
     • If you have, remove the order from the queue and reduce the quantity of food in the restaurant.
     • Otherwise, stop serving.
@@ -66,3 +68,30 @@ Output
 
         Input: 499                                Output: 100
                57 45 62 70 33 90 88 76 100 50             Orders left: 76 100 50
+
+    5. Truck Tour
+There is a circle road with N petrol pumps. The petrol pumps are numbered 0 to (N−1) (both inclusive). For each petrol pump, you will receive two pieces of information (separated by a single space): 
+    • The amount of petrol the petrol pump will give you
+    • The distance from that petrol pump to the next petrol pump (kilometers)
+You are a truck driver, and you want to go all around the circle. You know that the truck consumes 1 liter of petrol per 1 kilometer, and its tank has infinite petrol capacity.
+In the beginning, the tank is empty, but you start your journey at a petrol pump so you can fill it with the given amount of petrol.
+Your task is to calculate the first petrol pump from where the truck will be able to complete the circle. You never miss filling its tank at a petrol pump.
+Input:
+    • On the first line, you will receive the number of petrol pumps - N
+    • On the next N lines, you will receive the amount of petrol that each petrol pump will give and the distance between that petrol pump and the next petrol pump, separated by a single space
+Output:
+    • An integer which will be the smallest index of a petrol pump from which you can start the tour
+
+    Examples:
+
+    Input: 3      Output: 1
+           1 5
+           10 3
+           3 4
+
+    Input: 5      Output: 0
+           22 5
+           14 10
+           52 7
+           21 12
+           36 9
