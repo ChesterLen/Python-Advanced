@@ -199,8 +199,8 @@ Output
            green
            END
 
-    Input: 9            Output: A crash happened!
-           3                    Hummer was hit at e.
+    Input: 9             Output: A crash happened!
+           3                     Hummer was hit at e.
            Mercedes
            Hummer
            green
