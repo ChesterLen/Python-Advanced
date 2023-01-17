@@ -77,3 +77,30 @@ The order in which we print the result does not matter.
            Adam
            Adam
            Adam
+
+    4. Parking Lot
+Write a program that:
+    • Records a car number for every car that enters the parking lot
+    • Removes a car number when the car leaves the parking lot
+On the first line, you will receive the number of commands - N. On the following N lines, you will receive the direction and car's number in the format: "{direction}, {car_number}". The direction could only be "IN" or "OUT". Print the car numbers which are still in the parking lot. Keep in mind that all car numbers must be unique. If the parking lot is empty, print "Parking Lot is Empty".
+Note: The order in which we print the result does not matter.
+
+    Examples:
+
+    Input: 10                Output: CA2844AA
+           IN, CA2844AA              CA9999TT
+           IN, CA1234TA              CA2822UU
+           OUT, CA2844AA             CA9876HH
+           IN, CA9999TT
+           IN, CA2866HI
+           OUT, CA1234TA
+           IN, CA2844AA
+           OUT, CA2866HI
+           IN, CA9876HH
+           IN, CA2822UU
+
+    Input: 4                  Output: Parking Lot is Empty
+           IN, CA2844AA
+           IN, CA1234TA
+           OUT, CA2844AA
+           OUT, CA1234TA
