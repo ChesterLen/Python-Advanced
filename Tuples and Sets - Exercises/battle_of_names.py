@@ -10,8 +10,8 @@ for row in range(1, int(input()) + 1):
         odd_set.add(total_ascii_sum)
 
 if sum(odd_set) == sum(even_set):
-    print(", ".join(str(x) for x in odd_set.union(even_set)))
+    print(*odd_set.union(even_set), sep=", ")
 elif sum(odd_set) > sum(even_set):
-    print(", ".join(str(x) for x in odd_set.difference(even_set)))
+    print(*odd_set.difference(even_set), sep=", ")
 else:
-    print(", ".join(str(x) for x in odd_set.symmetric_difference(even_set)))
+    print(*odd_set.symmetric_difference(even_set), sep=", ")
