@@ -49,3 +49,23 @@ Set that contains all the elements that repeat in both sets -> {3, 5}
            3
            1
            5
+
+    3. Periodic Table
+Write a program that keeps all the unique chemical elements. On the first line, you will be given a number n - the count of input lines that you will receive. 
+On the following n lines, you will be receiving chemical compounds separated by a single space. Your task is to print all the unique ones on separate lines (the order does not matter):
+
+    Examples:
+
+    Input: 4               Output: Ce
+           Ce O                    Ee
+           Mo O Ce                 Mo
+           Ee                      O
+           Mo
+
+    Input: 3               Output: Ch
+           Ge Ch O Ne              Ge
+           Nb Mo Tc                Mo
+           O Ne                    Nb
+                                   Ne
+                                   O
+                                   Tc
