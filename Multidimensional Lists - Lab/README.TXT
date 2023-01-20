@@ -60,3 +60,21 @@ On the first line, you will get matrix sizes in format "{rows}, {columns}". On t
            1 2 3                   15
            4 5 6                   18
            7 8 9
+
+    5. Primary Diagonal
+Write a program that finds the sum of all numbers in a matrix's primary diagonal (runs from top left to bottom right). 
+On the first line, you will receive an integer N – the size of a square matrix. The next N lines holds the values for each column - N numbers, separated by a single space. 
+
+    Examples:
+
+    Input: 3          Output: 4
+           11 2 4
+           4 5 6
+           10 8 -12
+           (You have to collect: 11 + 5 + -12 = 4)
+
+    Input: 3          Output: 15
+           1 2 3
+           4 5 6
+           7 8 9
+           (You have to collect: 1 + 5 + 9 = 15)
