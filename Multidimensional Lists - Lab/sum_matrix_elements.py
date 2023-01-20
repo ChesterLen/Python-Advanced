@@ -1,5 +1,6 @@
 matrix_size = [int(x) for x in input().split(", ")]
 row, column = matrix_size
+
 matrix = []
 matrix_sum = 0
 
