@@ -42,3 +42,21 @@ On the first line, you will receive the number of a matrix's rows. On the next r
            10, 2, 21, 4
            5, 20, 41, 9
            6, 2, 4, 99
+
+    4. Sum Matrix Columns
+Write a program that reads a matrix from the console and prints the sum for each column on separate lines. 
+On the first line, you will get matrix sizes in format "{rows}, {columns}". On the next rows, you will get elements for each column separated with a single space.
+
+    Examples:
+
+    Input: 3, 6            Output: 12
+           7 1 3 3 2 1             10
+           1 3 9 8 5 6             19
+           4 6 7 9 1 0             20
+                                   8
+                                   7
+
+    Input: 3, 3            Output: 12
+           1 2 3                   15
+           4 5 6                   18
+           7 8 9
