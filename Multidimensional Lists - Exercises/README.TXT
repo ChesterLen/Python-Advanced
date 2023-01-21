@@ -3,7 +3,7 @@ Using a nested list comprehension, write a program that reads rows of a square m
 "Primary diagonal: {element1}, {element2}, … {elementN}. Sum: {sum_of_primary}
 Secondary diagonal: {element1}, {element2}, … {elementN}. Sum: {sum_of_secondary}".
 
-    Examples:
+    Example:
     
     Input: 3        Output: Primary diagonal: 1, 5, 9. Sum: 15
            1, 2, 3          Secondary diagonal: 3, 5, 7. Sum: 15
