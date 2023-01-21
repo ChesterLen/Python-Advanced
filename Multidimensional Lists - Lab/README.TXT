@@ -78,3 +78,22 @@ On the first line, you will receive an integer N – the size of a square matrix
            4 5 6
            7 8 9
            (You have to collect: 1 + 5 + 9 = 15)
+
+    6. Symbol in Matrix
+Write a program that reads a number - N, representing the rows and columns of a square matrix. On the next N lines, you will receive rows of the matrix. 
+Each row consists of ASCII characters. After that, you will receive a symbol. Find the first occurrence of that symbol in the matrix and print its position in the format: "({row}, {col})". 
+You should start searching from the top left. If there is no such symbol, print the message "{symbol} does not occur in the matrix".
+
+    Examples:
+
+    Input: 3      Output: (2, 1)
+           ABC
+           DEF
+           X!@
+
+    Input: 4      Output: 4 does not occur in the matrix
+           asdd
+           xczc
+           qwee
+           qefw
+           4
