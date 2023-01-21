@@ -31,6 +31,34 @@ Print the absolute difference between the primary and the secondary diagonal sum
            3 4 9 21
            -14 6 8 44
 
+    3. 2x2 Squares in Matrix
+Find the number of all 2x2 squares containing identical chars in a matrix. On the first line, you will receive the matrix's dimensions in the format "{rows} {columns}". 
+On the following rows, you will receive characters separated by a single space. Print the number of all square matrices you have found.
+
+    Examples:
+
+    Input: 3 4        Output: 2
+           A B B D
+           E B B B
+           I J B B
+
+           Two 2x2 squares of equal cells.
+
+    Input: 2 2          Output: 0
+           a b
+           c d
+
+           No 2x2 squares of equal cells exist.
+
+    Input: 5 4          Output: 3
+           A A B D
+           A A B B
+           I J B B
+           C C C G
+           C C K P
+
+           Three 2x2 squares of equal cells.
+
     5. Matrix of Palindromes
 Write a program to generate the following matrix of palindromes of 3 letters with r rows and c columns like the one in the examples below.
     • Rows define the first and the last letter: row 0  'a', row 1  'b', row 2  'c', …
