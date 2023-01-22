@@ -153,7 +153,7 @@ Output
     Input: 1 4      Output: Pyth
            Python
 
-    8. *Bombs
+    8. Bombs
 You will be given a square matrix of integers, each integer separated by a single space, and each row will be on a new line. On the last line of input, you will receive indexes - coordinates of several cells separated by a single space, in the following format: "{row1},{column1} {row2},{column2} … {row3},{column3}".
 On those cells, there are bombs. You must detonate every bomb in the order they were given. When a bomb explodes, it deals damage equal to its integer value to all the cells around it (in every direction and in all diagonals). One bomb can't explode more than once, and after it does, its value becomes 0. When a cell's value reaches 0 or below, it dies. Dead cells can't explode.
 You must print the count of all alive cells and their sum. Afterward, print the matrix with all its cells (including the dead ones).
@@ -182,3 +182,51 @@ Output
            3 1 5             4 1 0
            6 4 9             0 -3 -8
            0,2 1,0 2,2       3 -8 0
+
+    9. Miner
+You are going to create a game called "Miner".
+First, you will receive the size of a square field in which the miner should move. 
+On the second line, you will receive the commands for the miner's movement, separated by a single space. The possible commands are "left", "right", "up" and "down". 
+In the end, you will receive each row of the field on a separate line. The possible characters that may appear on the screen are:
+    • * - a regular position on the field
+    • e - the end of the route
+    • c - coal
+    • s - miner
+The miner starts moving from the position "s". He should perform the given commands successively, moving with only one position in the given direction. 
+If the miner has reached the edge of the field and the following command indicates that he has to get out of the area, he must remain in his current position and ignore the command.
+When the miner finds coal, he collects it and replaces it with "*". Keep track of the collected coal. In the end, you should print whether the miner has succeeded in collecting the coal or not and his final position:
+    • If the miner has collected all coal in the field, the program stops, and you should print the message: "You collected all coal! ({row_index}, {col_index})".
+    • If the miner steps at "e", the game is over (the program stops), and you should print the message: "Game over! ({row_index}, {col_index})".
+    • If there are no more commands and none of the above cases had happened, you should print the message: "{number_of_remaining_coal} pieces of coal left. ({row_index}, {col_index})".
+Input
+    • Field size - an integer number
+    • Commands to move the miner - a sequence of directions, separated by single whitespace (" ")
+    • The field: some of the following characters ("*", "e", "c ", "s"), separated by a single whitespace (" ")
+Output
+    • There are three types of output as mentioned above.
+
+    Examples:
+
+    Input: 5                                                  Output: Game over! (1, 3)
+           up right right up right
+           * * * c *
+           * * * e *
+           * * c * *
+           s * * c *
+           * * c * *
+
+    Input: 4                                                   Output: You collected all coal! (2, 3)
+           up right right right down
+           * * * e
+           * * c *
+           * s * c
+           * * * *
+
+    Input: 6                                                    Output: 3 pieces of coal left. (5, 0)
+           left left down right up left left down down down
+           * * * * * *
+           e * * * c *
+           * * c s * *
+           * * * * * *
+           c * * * c *
+           * * c * * *
