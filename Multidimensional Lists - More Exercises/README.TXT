@@ -111,3 +111,52 @@ Output
            105 X B 2 12 43 5 19
            48 19 35 20 32 27 42 4
            73 88 78 32 37 52 X 22
+
+    5. Alice in Wonderland
+Alice is going to the mad tea party, to see her friends. On the way to the party, she needs to collect bags of tea.
+You will be given an integer n for the size of the Wonderland territory with a square shape. On the following n lines, you will receive the rows of the territory:
+    • Alice will be placed in a random position, marked with the letter "A". 
+    • On the territory, there will be bags of tea, represented as numbers. If Alice steps on a number position, she collects the tea bags and increases the quantity with the corresponding number.
+    • There will always be one rabbit hole on the territory marked with the letter "R".
+    • All of the empty positions will be marked with ".".
+After the field state, you will be given commands for Alice's movements. Move commands can be: "up", "down", "left" or "right".
+When Alice collects at least 10 bags of tea, she is ready to go to the tea party, and she does not need to continue collecting. Otherwise, if she steps on the rabbit hole or goes out of the territory, she can't return, and the program ends. 
+In the end, the path she walked had to be marked with '*'.
+For more clarifications, see the examples below.
+Input
+    • On the first line, you will be given the integer n – the size of the square matrix
+    • On the following n lines - matrix representing the field (each position separated by a single space)
+    • On each of the following lines, you will be given a move command
+Output
+    • On the first line: 
+        ◦ If Alice steps on the rabbit hole or she go out of the territory, print: 
+"Alice didn't make it to the tea party."
+        ◦ If she collected at least 10 bags of tea, print: 
+"She did it! She went to the party."
+    • On the following lines, print the matrix.
+
+    Examples:
+
+    Input: 5              Output: Alice didn't make it to the tea party.
+           . A . . 1              . * . . 1
+           R . 2 . .              * * * . .
+           4 7 . 1 .              4 * . 1 .
+           . . . 2 .              . . . 2 .
+           . 3 . . .              . 3 . . .
+           down
+           right
+           left
+           down
+           up
+           left
+
+    Input: 7               Output: She did it! She went to the party.
+           . A . 1 1 . .           * * . 1 1 . .
+           9 . . . 6 . 5           * . . . 6 . 5
+           . 6 . R . . .           * * . R . . .
+           . 3 . . 1 . .           . 3 . . 1 . .
+           . 8 3 . . . 2           . 8 3 . . . 2
+           left
+           down
+           down
+           right
