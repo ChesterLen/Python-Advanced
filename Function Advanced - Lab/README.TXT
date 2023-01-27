@@ -68,3 +68,13 @@ Rectangle perimeter: {rect_perim}"
                                                 Rectangle perimeter: 24
 
     Input: print(rectangle('2', 10))    Output: "Enter valid values!"
+
+    5. Recursive Power
+Create a recursive function called recursive_power() which should receive a number and a power. 
+Using recursion, return the result of number ** power. Submit only the function in the judge system.
+
+    Test code:
+
+    Input: print(recursive_power(2, 10))     Output: 1024
+
+    Input: print(recursive_power(10, 100))   Output: 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
