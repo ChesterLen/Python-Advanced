@@ -59,3 +59,32 @@ First, you should concatenate all arguments successively. Next, take each key su
     Test code: print(concatenate("Soft", "UNI", "Is", "Grate", "!", UNI="Uni", Grate="Great"))      Output: SoftUniIsGreat!
 
     Test code: print(concatenate("I", " ", "Love", " ", "Cythons", C="P", s="", java='Java'))       Output: I Love Python
+
+    6. Function Executor
+Create a function called func_executor() that can receive a different number of tuples, each of which will have exactly 2 elements: the first will be a function, and the second will be a tuple of the arguments that need to be passed to that function.
+You should execute each function and return its result in the format:
+"{function name} - {function result}"
+
+    Test code: def sum_numbers(num1, num2):                        Output: sum_numbers - 3
+                   return num1 + num2                                      multiply_numbers - 8
+
+               def multiply_numbers(num1, num2):
+                   return num1 * num2
+
+               print(func_executor(
+                   (sum_numbers, (1, 2)), 
+                   (multiply_numbers, (2, 4))
+               ))
+
+    Test_code: def make_upper(*strings):                           Output: make_upper - ('PYTHON', 'SOFTUNI')
+                   result = tuple(s.upper() for s in strings)              make_lower - ('python', )
+                   return result
+
+               def make_lower(*strings):
+                   result = tuple(s.lower() for s in strings)
+                   return result
+
+               print(func_executor(
+                    (make_upper, ("Python", "softUni")),
+                    (make_lower, ("PyThOn",)),
+               ))
