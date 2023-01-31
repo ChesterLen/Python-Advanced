@@ -19,3 +19,12 @@ You will receive a sequence of numbers (integers) separated by a single space. S
     Input: 1 2 3                          Output: 0
                                                   6
                                                   The positives are stronger than the negatives
+
+    2. Keyword Arguments Length
+Create a function called kwargs_length() that can receive some keyword arguments and return their length.
+
+    Test code: dictionary = {'name': 'Peter', 'age': 25}     Output: 2
+               print(kwargs_length(**dictionary))
+
+    Test code: dictionary = {}                               Output: 0
+               print(kwargs_length(**dictionary))
