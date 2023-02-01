@@ -111,7 +111,8 @@ If there are two or more products with the same name's length, sort them by thei
                ))
 
     8. Age Assignment
-Create a function called age_assignment() that receives a different number of names and a different number of key-value pairs. The key will be a single letter (the first letter of each name) and the value - a number (age). Find its first letter in the key-value pairs for each name and assign the age to the person's name.
+Create a function called age_assignment() that receives a different number of names and a different number of key-value pairs. The key will be a single letter (the first letter of each name) and the value - a number (age). 
+Find its first letter in the key-value pairs for each name and assign the age to the person's name.
 Then, sort the names in ascending order (alphabetically) and return the information for each person on a new line in the format: "{name} is {age} years old."
 
     Test code: print(age_assignment("Peter", "George", G=26, P=19))              Output: George is 26 years old.
@@ -120,3 +121,11 @@ Then, sort the names in ascending order (alphabetically) and return the informat
     Test code: print(age_assignment("Amy", "Bill", "Willy", W=36, A=22, B=61))   Output: Amy is 22 years old.
                                                                                          Bill is 61 years old.
                                                                                          Willy is 36 years old.
+
+    9. Recursion Palindrome
+Write a recursive function called palindrome() that will receive a word and an index (always 0). 
+Implement the function, so it returns "{word} is a palindrome" if the word is a palindrome and "{word} is not a palindrome" if the word is not a palindrome using recursion.
+
+    Test code: print(palindrome("abcba", 0))	Output: abcba is a palindrome
+
+    Test code: print(palindrome("peter", 0))	Output: peter is not a palindrome
