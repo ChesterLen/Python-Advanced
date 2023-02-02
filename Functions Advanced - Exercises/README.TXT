@@ -129,3 +129,24 @@ Implement the function, so it returns "{word} is a palindrome" if the word is a 
     Test code: print(palindrome("abcba", 0))	Output: abcba is a palindrome
 
     Test code: print(palindrome("peter", 0))	Output: peter is not a palindrome
+
+    10. Fill the Box
+Write a function called fill_the_box that receives a different number of arguments representing:
+the height of a box
+the length of a box
+the width of a box
+n-times a different number of cubes with exact size 1 x 1 x 1
+a string "Finish"
+Your task is to fill the box with the given cubes until the current argument equals "Finish".
+    Output
+The function should return a string in the following format:
+    If, at the end, there is free space left in the box, print:
+        "There is free space in the box. You could put {free space in cubes} more cubes."
+    If there is no free space in the box, print:
+        "No more free space! You have {cubes left} more cubes."
+
+    Test code: print(fill_the_box(2, 8, 2, 2, 1, 7, 3, 1, 5, "Finish"))      Output: There is free space in the box. You could put 13 more cubes.
+
+    Test code: print(fill_the_box(5, 5, 2, 40, 11, 7, 3, 1, 5, "Finish"))    Output: No more free space! You have 17 more cubes.
+
+    Test code: print(fill_the_box(10, 10, 10, 40, "Finish", 2, 15, 30))      Output: There is free space in the box. You could put 960 more cubes.
