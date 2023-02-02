@@ -15,6 +15,3 @@ def fill_the_box(height, length, width, *args):
         return f"There is free space in the box. You could put {volume} more cubes."
     else:
         return f"No more free space! You have {cubes} more cubes."
- 
- 
-print(fill_the_box(2, 8, 2, 2, 1, 7, 3, 1, 5, "Finish"))
