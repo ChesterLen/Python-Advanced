@@ -136,33 +136,33 @@ Output
 
     Examples:
 
-    Input: print(                                         Output: Diyan needs 198.0 credits more for a diploma.
-               students_credits(                                  Algorithms - 24.5
-                  "Computer Science-12-300-250",                  Computer Science - 10.0
-                  "Basic Algebra-15-400-200",                     Basic Algebra - 7.5
-                  "Algorithms-25-500-490"
+    Test code: print(                                         Output: Diyan needs 198.0 credits more for a diploma.
+                   students_credits(                                  Algorithms - 24.5
+                       "Computer Science-12-300-250",                  Computer Science - 10.0
+                       "Basic Algebra-15-400-200",                     Basic Algebra - 7.5
+                       "Algorithms-25-500-490"
+                   )
                 )
-            )
 
-    Input: print(                                         Output: Diyan gets a diploma with 243.3 credits.
-               students_credits(                                  Game Engine Development - 49.0
-                  "Discrete Maths-40-500-450",                    Algorithms Advanced - 45.0
-                  "AI Development-20-400-400",                    Discrete Maths - 36.0
-                  "Algorithms Advanced-50-700-630",               C++ Development - 24.3
-                  "Python Development-15-200-200",                Mobile Development - 22.5
-                  "JavaScript Development-12-500-480",            AI Development - 20.0
-                  "C++ Development-30-500-405",                   QA - 20.0
-                  "Game Engine Development-70-100-70",            Python Development - 15.0
-                  "Mobile Development-25-250-225",                JavaScript Development - 11.5
-                  "QA-20-300-300",
-                  )
-             )
+    Test code: print(                                         Output: Diyan gets a diploma with 243.3 credits.
+                   students_credits(                                  Game Engine Development - 49.0
+                       "Discrete Maths-40-500-450",                    Algorithms Advanced - 45.0
+                       "AI Development-20-400-400",                    Discrete Maths - 36.0
+                       "Algorithms Advanced-50-700-630",               C++ Development - 24.3
+                       "Python Development-15-200-200",                Mobile Development - 22.5
+                       "JavaScript Development-12-500-480",            AI Development - 20.0
+                       "C++ Development-30-500-405",                   QA - 20.0
+                       "Game Engine Development-70-100-70",            Python Development - 15.0
+                       "Mobile Development-25-250-225",                JavaScript Development - 11.5
+                       "QA-20-300-300",
+                    )
+                )
 
-    Input: print(                                         Output: Diyan needs 184.2 credits more for a diploma.
-                students_credits(                                 C++ Development - 24.3
-                    "Python Development-15-200-200",              Python Development - 15.0
-                    "JavaScript Development-12-500-480",          JavaScript Development - 11.5
-                    "C++ Development-30-500-405",                 Java Development - 5.0
+    Test code: print(                                         Output: Diyan needs 184.2 credits more for a diploma.
+                   students_credits(                                 C++ Development - 24.3
+                       "Python Development-15-200-200",              Python Development - 15.0
+                       "JavaScript Development-12-500-480",          JavaScript Development - 11.5
+                       "C++ Development-30-500-405",                 Java Development - 5.0
                     "Java Development-10-300-150"
+                   )
                 )
-            )
