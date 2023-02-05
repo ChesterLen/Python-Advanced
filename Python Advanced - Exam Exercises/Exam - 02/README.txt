@@ -127,20 +127,20 @@ Output
 
     Examples:
 
-    Input: print(forecast(               Output: New York - Sunny
-               ("Sofia", "Sunny"),               Sofia - Sunny
-               ("London", "Cloudy"),             London - Cloudy
-               ("New York", "Sunny")))
+    Test code: print(forecast(               Output: New York - Sunny
+                   ("Sofia", "Sunny"),               Sofia - Sunny
+                   ("London", "Cloudy"),             London - Cloudy
+                   ("New York", "Sunny")))
 
-    Input: print(forecast(               Output: Beijing - Sunny
-               ("Beijing", "Sunny"),             Bourgas - Sunny
-               ("Hong Kong", "Rainy"),           Peru - Sunny
-               ("Tokyo", "Sunny"),               Tokyo - Sunny
-               ("Sofia", "Cloudy"),              Florence - Cloudy
-               ("Peru", "Sunny"),                Sofia - Cloudy
-               ("Florence", "Cloudy"),           Hong Kong - Rainy
-               ("Bourgas", "Sunny")))
+    Test code: print(forecast(               Output: Beijing - Sunny
+                   ("Beijing", "Sunny"),             Bourgas - Sunny
+                   ("Hong Kong", "Rainy"),           Peru - Sunny
+                   ("Tokyo", "Sunny"),               Tokyo - Sunny
+                   ("Sofia", "Cloudy"),              Florence - Cloudy
+                   ("Peru", "Sunny"),                Sofia - Cloudy
+                   ("Florence", "Cloudy"),           Hong Kong - Rainy
+                   ("Bourgas", "Sunny")))
 
-    Input: print(forecast(               Output: Sofia - Rainy
-               ("Tokyo", "Rainy"),               Tokyo - Rainy
-               ("Sofia", "Rainy")))
+    Test code: print(forecast(               Output: Sofia - Rainy
+                   ("Tokyo", "Rainy"),               Tokyo - Rainy
+                   ("Sofia", "Rainy")))
