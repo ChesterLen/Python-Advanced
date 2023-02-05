@@ -1,5 +1,6 @@
     01. Climb the Peaks
-Alex is a vlogger and he wants to make videos of climbing the five highest peaks in Pirin mountain in just one week.  He will take his video set, a tent, and his backpack to the mountain. The backpack fits food portions for one week, exactly. His daily stamina is also limited. 
+Alex is a vlogger and he wants to make videos of climbing the five highest peaks in Pirin mountain in just one week.  He will take his video set, a tent, and his backpack to the mountain.
+The backpack fits food portions for one week, exactly. His daily stamina is also limited. 
 Your task is to trace his adventure and create a post for his profile @alaroundtheworld, at the end of the journey.
 You will have to keep information for all the conquered peaks if any.
 Every day, Alex will use one portion of his daily food supplies and will exhaust one of his daily stamina.
