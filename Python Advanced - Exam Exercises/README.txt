@@ -11,3 +11,40 @@ You have to sum the quantity of the last daily food portion with the quantity of
 In this case, you should remove both quantities from the sequences and continue with the next ones towards the next peak.
     • If the sum is less than the corresponding Mountain Peak’s Difficulty level from the table below, the peak remains unconquered. You should remove both quantities from the sequences. 
 Alex will have to sleep in his tent. On the next day, he will try the same peak once again.
+
+    Mountain Peaks: Vihren           Difficulty level: 80
+                    Kutelo                             90
+                    Banski Suhodol                     100
+                    Polezhan                           60
+                    Kamenitza                          70
+
+Alex will try to conquer as many peaks as he can in seven days. If he manages to climb all the peaks, the journey ends and the output is printed on the Console.
+Finally, print on the Console all the conquered peaks(in the order of climbing).
+
+Input
+    • On the first line, you will receive the food portions, separated by a comma and a single space (', '). 
+    • On the second line, you will receive the stamina, separated by a comma and a single space (', ').
+
+Output
+    • On the first line – print whether Alex managed to reach his goal and climb all the peaks in his list:
+         If he managed to conquer all: "Alex did it! He climbed all top five Pirin peaks in one week -> @FIVEinAWEEK"
+         If he didn't manage to climb all of the peaks: "Alex failed! He has to organize his journey better next time -> @PIRINWINS"
+    • Then, in either case, you need to print all the conquered peaks (in the order of climbing) if any:
+"Conquered peaks:
+{peak1}
+{peak2}
+…
+{peakn}"
+         If there are no concurred peaks, do NOT print this message.
+
+    Examples:
+
+    Input: 40, 40, 40, 40, 40, 40, 40     Output: Alex did it! He climbed all top five Pirin peaks in one week -> @FIVEinAWEEK
+           40, 50, 60, 20, 30, 5, 2	          Conquered peaks:
+						  Vihren
+						  Kutelo
+						  Banski Suhodol
+						  Polezhan
+						  Kamenitza
+
+    Input: 10, 20, 34, 26, 12, 10, 45     Output: Alex failed! He has to organize his journey better next time -> @PIRINWINS
