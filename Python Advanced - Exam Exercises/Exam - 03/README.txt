@@ -133,37 +133,37 @@ Output
 
     Examples:
 
-    Input: print(add_songs(                                      Output: - Bohemian Rhapsod
-               ("Bohemian Rhapsody", []),                                - Just in Time
-               ("Just in Time",                                          Just in time, I found you just in time
-               ["Just in time, I found you just in time",                Before you came, my time was running low
-               "Before you came, my time was running low",               I was lost, the losing dice were tossed
-               "I was lost, the losing dice were tossed",                My bridges all were crossed, nowhere to go
-                "My bridges all were crossed, nowhere to go"])
-            ))
+    Test code: print(add_songs(                                      Output: - Bohemian Rhapsod
+                   ("Bohemian Rhapsody", []),                                - Just in Time
+                   ("Just in Time",                                          Just in time, I found you just in time
+                   ["Just in time, I found you just in time",                Before you came, my time was running low
+                   "Before you came, my time was running low",               I was lost, the losing dice were tossed
+                   "I was lost, the losing dice were tossed",                My bridges all were crossed, nowhere to go
+                   "My bridges all were crossed, nowhere to go"])
+                ))
 
-    Input: print(add_songs(                                       Output: - Beat It
-               ("Beat It", []),                                           Just beat it (beat it), beat it (beat it)
-               ("Beat It",                                                No one wants to be defeated
-               ["Just beat it (beat it), beat it (beat it)",              Showin' how funky and strong is your fight
-               "No one wants to be defeated"]),                           It doesn't matter who's wrong or right
-               ("Beat It", []),
-               ("Beat It",
-               ["Showin' how funky and strong is your fight",
-               "It doesn't matter who's wrong or right"]),
-             ))
+    Test code: print(add_songs(                                       Output: - Beat It
+                   ("Beat It", []),                                           Just beat it (beat it), beat it (beat it)
+                   ("Beat It",                                                No one wants to be defeated
+                   ["Just beat it (beat it), beat it (beat it)",              Showin' how funky and strong is your fight
+                   "No one wants to be defeated"]),                           It doesn't matter who's wrong or right
+                   ("Beat It", []),
+                   ("Beat It",
+                   ["Showin' how funky and strong is your fight",
+                   "It doesn't matter who's wrong or right"]),
+                 ))
 
-    Input: print(add_songs(                                        Output: - Love of my life
-               ("Love of my life",                                         Love of my life, you've hurt me
-               ["Love of my life, you've hurt me",                         You've broken my heart, and now you leave me
-               "You've broken my heart, and now you leave me",             Love of my life, can't you see?
-               "Love of my life, can't you see?",                          Bring it back, bring it back
-               "Bring it back, bring it back"]),                           Don't take it away from me
-               ("Beat It", []),                                            Because you don't know
-               ("Love of my life",                                         What it means to me
-               ["Don't take it away from me",                              - Beat It
-               "Because you don't know",                                   - Dream On
-               "What it means to me"]),                                    Every time that I look in the mirror
-               ("Dream On",
-               ["Every time that I look in the mirror"]),
-              ))
+    Test code: print(add_songs(                                        Output: - Love of my life
+                   ("Love of my life",                                         Love of my life, you've hurt me
+                   ["Love of my life, you've hurt me",                         You've broken my heart, and now you leave me
+                   "You've broken my heart, and now you leave me",             Love of my life, can't you see?
+                   "Love of my life, can't you see?",                          Bring it back, bring it back
+                   "Bring it back, bring it back"]),                           Don't take it away from me
+                   ("Beat It", []),                                            Because you don't know
+                   ("Love of my life",                                         What it means to me
+                   ["Don't take it away from me",                              - Beat It
+                   "Because you don't know",                                   - Dream On
+                   "What it means to me"]),                                    Every time that I look in the mirror
+                   ("Dream On",
+                   ["Every time that I look in the mirror"]),
+                 ))
