@@ -53,3 +53,46 @@ They will be taking turns and stepping on different positions on the board until
         ◦ Print "{player} hits a wall and needs to rest."
     • If a player steps on an empty position ".", nothing happens. 
     • Both players can step in the same position at the same time.
+
+    Examples:
+
+    Input: Tom, Jerry       Output: Tom hits a wall and needs to rest.
+           . . T . . .              Jerry is out of the game! The winner is Tom.
+           . . . . . .
+           . . W . . .
+           . . W . . E
+           . . . . . .
+           . T . W . .
+           (3, 2)
+           (1, 3)
+           (5, 1)
+           (5, 1)
+
+    Input: Jerry, Tom       Output: Jerry found the Exit and wins the game!
+           . T . . . W
+           . . . . T .
+           . W . . . T
+           . T . E . .
+           . . . . . T
+           . . T . . .
+           (1, 1)
+           (3, 0)
+           (3, 3)
+
+    Input: Jerry, Tom       Output: Jerry hits a wall and needs to rest.
+           . . . W . .              Tom hits a wall and needs to rest.
+           . . T T . .              Tom hits a wall and needs to rest.
+           . . . . . .              Jerry hits a wall and needs to rest.
+           . T . W . .              Tom found the Exit and wins the game!
+           W . . . E .
+           . . . W . .
+           (0, 3)
+           (3, 3)
+           (1, 3)
+           (2, 2)
+           (3, 5)
+           (4, 0)
+           (5, 3)
+           (3, 1)
+           (4, 4)
+           (4, 4)
