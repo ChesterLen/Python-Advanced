@@ -22,3 +22,14 @@ Output
     • On the following lines, print the eggs left or pieces of paper left if there are any:
     • Eggs left: {left eggs joined by ", "}
     • Pieces of paper left: {left pieces of paper joined by ", "}
+
+    Examples:
+
+    Input: 20, 13, -7, 7          Output: Great! You filled 2 boxes.
+           10, 5, 20, 15, 7, 9            Pieces of paper left: 7, 5, 20, 15
+
+    Input: 2, 4, 7, 8, 0          Output: Sorry! You couldn't fill any boxes!
+           5, 6, 2                        Eggs left: 8, 0
+
+    Input: 12, 23                 Output: Sorry! You couldn't fill any boxes!
+           28, 40
