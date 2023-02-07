@@ -125,3 +125,29 @@ Output
 " - {Nth_product_added}"
     • If there are no products given for a meal, return just its name in the format shown above.
     • If there are NO products in the cart (at all), return the message: "No products in the cart!"
+
+    Examples:
+
+    Test code: print(shopping_cart(        Output: Pizza:
+                   ('Pizza', 'ham'),               - cheese
+                   ('Soup', 'carrots'),            - flour
+                   ('Pizza', 'cheese'),            - ham
+                   ('Pizza', 'flour'),             - mushrooms
+                   ('Dessert', 'milk'),            Dessert:
+                   ('Pizza', 'mushrooms'),         - milk
+                   ('Pizza', 'tomatoes'),          Soup:
+                   'Stop',                         - carrots
+               ))
+
+    Test code: print(shopping_cart(        Output: Dessert:
+                   ('Pizza', 'ham'),               - milk
+                   ('Dessert', 'milk'),            Pizza:
+                   ('Pizza', 'ham'),               - ham
+                   'Stop',                         Soup:
+               ))
+
+    Test code: print(shopping_cart(        Output: No products in the cart!
+                   'Stop',
+                   ('Pizza', 'ham'),
+                   ('Pizza', 'mushrooms'),
+               ))
