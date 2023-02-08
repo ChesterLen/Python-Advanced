@@ -53,3 +53,29 @@ Output
 After you go through all the commands or the rover gets broken, print out on the console:
     • If the rover has found at least one of each deposit, print on the console: "Area suitable to start the colony."
     • Otherwise, print on the console: "Area not suitable to start the colony."
+
+    Examples:
+
+    Input: - R - - - -                                             Output: Water deposit found at (3, 1)
+           - - - - - R                                                     Concrete deposit found at (4, 3)
+           - E - R - -             				           Metal deposit found at (5, 0)
+           - W - - - -             					   Area suitable to start the colony.
+           - - - C - -
+	   M - - - - -
+	   down, right, down, right, down, left, left, left
+
+    Input: R - - - - -                                             Output: Water deposit found at (3, 2)
+           - - C - - -                                                     Water deposit found at (4, 3)
+           - - - - M -                                                     Rover got broken at (4, 5)
+           - - W - - -                                                     Area not suitable to start the colony.
+           - E - W - R
+           - - - - - -
+           up, right, down, right, right, right
+
+    Input: R - - - - -                                             Output: Water deposit found at (4, 3)
+           - - C - - -                                                     Metal deposit found at (3, 2)
+           - - - - M -                                                     Concrete deposit found at (3, 0)
+           C - M - R M                                                     Metal deposit found at (3, 5)
+           - E - W - -                                                     Rover got broken at (3, 4)
+           - - - - - -                                                     Area suitable to start the colony.
+           right, right, up, left, left, left, left, left
