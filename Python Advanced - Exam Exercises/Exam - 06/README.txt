@@ -36,4 +36,4 @@ Output
            x r l t p p                Consonants left: x r l
 
     Input: u a o i u y o e    Output: Word found: tulip
-           p m t l                    Vowels left: u y o ee
+           p m t l                    Vowels left: u y o e
