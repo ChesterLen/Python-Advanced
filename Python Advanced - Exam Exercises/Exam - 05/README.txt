@@ -91,3 +91,23 @@ Input
     • There will be no input, just any number of words passed to your function
 Output
     • The function should return a string in the format "{key} - {value}" for each key and value on a separate lines
+
+    Test code: print(                       Output: charm - 523
+                   words_sorting(                   escape - 625
+                       'escape',                    mythology - 1004
+                       'charm', 
+                       'mythology'
+                 ))
+
+    Test code: print(                        Output: escape - 625
+                   words_sorting(                    charm - 523
+                       'escape',                     eye - 323
+                       'charm',                      
+                       'eye'
+                  ))
+
+    Test code: print(                         Output: accolade - 812
+                   words_sorting(                     cacophony - 964
+                       'cacophony',         
+                       'accolade'
+                  ))
