@@ -25,3 +25,15 @@ Output
     • On the next lines, print the remaining letters in each collection (if there are any left):
         ◦ "Vowels left: {vowel_one} {vowel_two} … {vowel_N}"
         ◦ "Consonants left: {consonants_one} {consonants_two} … {consonants_N}"
+
+    Examples:
+
+    Input: o e a o e a i      Output: Word found: rose
+           p r s x r                  Vowels left: o e a i
+				      Consonants left: p r
+
+    Input: a a a              Output: Cannot find any word!
+           x r l t p p                Consonants left: x r l
+
+    Input: u a o i u y o e    Output: Word found: tulip
+           p m t l                    Vowels left: u y o e
