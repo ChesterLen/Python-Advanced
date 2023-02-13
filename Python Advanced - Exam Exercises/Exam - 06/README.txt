@@ -38,7 +38,7 @@ Output
     Input: u a o i u y o e    Output: Word found: tulip
            p m t l                    Vowels left: u y o e
 
-02. Pawn Wars
+ 2. Pawn Wars
 
 A chessboard has 8 rows and 8 columns. Rows, also called ranks, are marked from number 1 to 8, and columns are marked from A to H.
 We have a total of 64 squares. Each square is represented by a combination of letters and a number (a1, b1, c1, etc.). In this problem colors of the board will be ignored.
