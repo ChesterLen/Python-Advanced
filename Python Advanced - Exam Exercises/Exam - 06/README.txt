@@ -67,3 +67,23 @@ Print either one of the following:
         ◦ "Game over! {White/Black} win, capture on {square}."
     • If a pawn reaches the last rank, print:
         ◦ "Game over! {White/Black} pawn is promoted to a queen at {square}."
+
+    Examples:
+
+    Input: - - - - - - b -       Output: Game over! White pawn
+           - - - - - - - -               is promoted to a queen
+           - - - - - - - -               at b8.
+           - - - - - - - -
+           - - - - - - - -
+	   - w - - - - - -
+	   - - - - - - - -
+	   - - - - - - - -
+
+    Input: - - - - - - - -       Output: Game over! White win,
+           - - - - - - - -               capture on a3.
+           - - - - - - - -
+           - - - - - - - -
+           - - - - - - - -
+           b - - - - - - -
+           - w - - - - - -
+	   - - - - - - - -
