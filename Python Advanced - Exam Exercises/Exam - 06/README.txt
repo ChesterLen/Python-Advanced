@@ -87,3 +87,57 @@ Print either one of the following:
            b - - - - - - -
            - w - - - - - -
 	   - - - - - - - -
+
+03. Springtime
+Spring is the season of new beginnings. Fresh buds bloom, animals awaken and the earth seems to come to life again. Farmers and gardeners plant their seeds and temperatures slowly rise.
+Write a function called start_spring which will receive a different number of keyword arguments.
+Each keyword holds a key with a name of the spring object (string), and each value holds its type (string). For example, dahlia="flower", shrikes="bird", dogwood="tree".
+The function should sort the given spring objects in collections by their type:
+    • The collections sorted by their number of elements in descending order. If two or more collections have the same number of elements in them, return them in ascending order (alphabetically) by the type's name. 
+    • Each collection's elements should be sorted in ascending order (alphabetically) by the object's name.
+
+Input
+    • There will be no input. Just parameters passed to your function.
+Output
+    • Return the result, sorted as described above in the format:
+        ◦ "{type_one}:
+	  -{spring_object_of_this_type_one}
+	  -{spring_object_of_this_type_two}
+	  …
+	  -{spring_object_of_this_type_N}
+	  {type_two}:
+	  …
+	  {type_N}:
+	  …
+	  -{last_spring_object_of_typeN}"
+
+    Test code: example_objects = {"Water Lilly": "flower",                  Output: flower:
+                                  "Swifts": "bird",                                 -Dahlia
+                                  "Callery Pear": "tree",                           -Tulip
+                                  "Swallows": "bird",                               -Water Lilly
+                                  "Dahlia": "flower",                               bird:
+                                  "Tulip": "flower",}                   	    -Swallows
+                                                                                    -Swifts
+                                  print(start_spring(**example_objects))            tree:
+                                                                                    -Callery Pear
+
+    Test code: example_objects = {"Swallow": "bird",                         Output: bird:
+                                  "Thrushes": "bird",                                -Shrikes
+                                  "Woodpeckers": "bird",                             -Swallow
+                                  "Swallows": "bird",                                -Swallows
+                                  "Warblers": "bird",                                -Thrushes
+                                  "Shrikes": "bird",}                                -Warblers
+                                                                                     -Woodpeckers
+
+                                  print(start_spring(**example_objects))
+
+    Tets code: example_objects = {"Magnolia": "tree",                         Output: bird:
+                                  "Swallow": "bird",                                  -Shrikes
+                                  "Thrushes": "bird",                                 -Swallow
+                                  "Pear": "tree",                                     -Thrushes
+                                  "Cherries": "tree",                                 tree:
+                                  "Shrikes": "bird",                                  -Cherries
+                                  "Butterfly": "insect"}                              -Magnolia
+                                                                                      -Pear
+                                  print(start_spring(**example_objects))              insect:
+                                                                                      -Butterfly
