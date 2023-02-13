@@ -88,7 +88,7 @@ Print either one of the following:
            - w - - - - - -
 	   - - - - - - - -
 
-03. Springtime
+ 3. Springtime
 Spring is the season of new beginnings. Fresh buds bloom, animals awaken and the earth seems to come to life again. Farmers and gardeners plant their seeds and temperatures slowly rise.
 Write a function called start_spring which will receive a different number of keyword arguments.
 Each keyword holds a key with a name of the spring object (string), and each value holds its type (string). For example, dahlia="flower", shrikes="bird", dogwood="tree".
