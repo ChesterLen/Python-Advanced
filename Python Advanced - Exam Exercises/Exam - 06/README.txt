@@ -140,4 +140,4 @@ Output
                                   "Butterfly": "insect"}                              -Magnolia
                                                                                       -Pear
                                   print(start_spring(**example_objects))              insect:
-                                                                                      -Butterfly
+                                                                                      -Butterfl
