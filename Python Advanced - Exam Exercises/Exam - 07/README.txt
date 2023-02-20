@@ -26,3 +26,16 @@ Output
         ◦ "Palm Fireworks: {count}"
         ◦ "Willow Fireworks: {count}"
         ◦ "Crossette Fireworks: {count}"
+
+    Examples:
+
+    Input: 5, 6, 4, 16, 11, 5, 30, 2, 3, 27        Output: Congrats! You made the perfect firework show!
+           1, 13, 5, 3, -7, 32, 19, 3, 5, 7, 22            Palm Fireworks: 4
+							   Willow Fireworks: 3
+							   Crossette Fireworks: 3
+
+    Input: -15, -8, 0, -16, 0, -22                         Sorry. You can't make the perfect firework show.
+           10, 5                                           Explosive Power left: 10, 5
+							   Palm Fireworks: 0
+							   Willow Fireworks: 0
+							   Crossette Fireworks: 0
