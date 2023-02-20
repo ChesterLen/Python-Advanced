@@ -114,3 +114,11 @@ In case of "sell" Maria has a client and she is selling different boxes with cup
     • If there is/are string/s as another parameter/s, it means that Maria has sold ALL cupcake boxes of the ordered flavour/s
 Beware that not everything the buyer has ordered might be in stock, so you should check if the order is valid
     • If there are no other parameters, it means that Maria has sold only the first box of cupcakes and you should remove  it of the inventory list
+
+    Test code: print(stock_availability(["choco", "vanilla", "banana"], "delivery", "caramel", "berry"))            Output: ['choco', 'vanilla', 'banana', 'caramel', 'berry']
+	       print(stock_availability(["chocolate", "vanilla", "banana"], "delivery", "cookie","banana"))                 ['chocolate', 'vanilla', 'banana', 'cookie', 'banana']
+	       print(stock_availability(["chocolate", "vanilla", "banana"], "sell"))                                        ['vanilla', 'banana']
+	       print(stock_availability(["chocolate", "vanilla", "banana"], "sell", 3))                                     []
+	       print(stock_availability(["chocolate", "chocolate", "banana"], "sell", "chocolate"))                         ['banana']
+	       print(stock_availability(["cookie", "chocolate", "banana"], "sell", "chocolate"))                            ['cookie', 'banana']
+	       print(stock_availability(["chocolate", "vanilla", "banana"], "sell", "cookie"))                              ['chocolate', 'vanilla', 'banana']
