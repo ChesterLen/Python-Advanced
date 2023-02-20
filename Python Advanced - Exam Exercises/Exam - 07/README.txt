@@ -68,3 +68,32 @@ Output
 [{row_position2}, {column_position2}]
 …
 [{row_positionN}, {column_positionN}]"
+
+    Examples:
+
+    Input: 5                          Output: You won! You've collected 125 coins.
+           1 X 7 9 11             	      Your path:
+           X 14 46 62 0           	      [3, 0]
+           15 33 21 95 X          	      [3, 4]
+           P 14 3 4 18            	      [3, 0]
+           9 20 33 X 0            	      [3, 1]
+	   left                   	      [2, 1]
+	   right                  	      [1, 1]
+	   right                  	      [1, 2]
+	   up
+	   up
+	   right
+
+    Input: 8                           Output: Game over! You've collected 0 coins.
+           13 18 9 7 24 41 52 11               Your path:
+	   54 21 19 X 6 4 75 6                 [5, 2]
+	   76 5 7 1 76 27 2 37                 [4, 2]
+	   92 3 25 37 52 X 56 72               [5, 2]
+	   15 X 1 45 45 X 7 63                 [4, 2]
+	   1 63 P 2 X 43 5 1                   [4, 1]
+	   48 19 35 20 100 27 42 80
+	   73 88 78 33 37 52 X 22
+	   up
+	   down
+	   up
+	   left
