@@ -53,3 +53,19 @@ Input
 Output
     • You should print only one line containing the winner and his count of throws: 
 "{name} won the game with {count_turns} throws!"
+
+    Examples:
+
+    Input: Ivan, Peter          Output: Ivan won the game with 1
+           12 21 18 4 20 7 11           throws!
+           9 D D D D D 10
+	   15 D T T T D 3
+	   2 D T B T D 19
+	   17 D T T T D 6
+	   22 D D D D D 14
+	   5 8 23 13 16 1 24
+	   (3, 3)
+
+    Input: George, Hristo       Output: Hristo won the game with
+           17 8 21 6 13 3 24            4 throws!
+           
