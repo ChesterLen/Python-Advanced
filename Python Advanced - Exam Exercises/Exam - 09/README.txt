@@ -33,3 +33,18 @@ Output
 {present2}: {amount}
 …
 {presentN}: {amount}"
+
+    Input: 105 20 30 25          Output: The wedding presents are made!
+           120 60 11 400 10 1            Magic left: 10, 1
+					 Gemstone: 1
+					 Porcelain Sculpture: 2
+
+    Input: 30 5 21 6 0 91        Output: Aladdin does not have enough
+           15 9 5 15 8                   wedding presents.
+					 Materials left: 30
+					 Gemstone: 1
+
+    Input: 200                   Output: Aladdin does not have enough
+           5 15 32 20 10 5               wedding presents.
+					 Magic left: 15, 32, 20, 10, 5
+					 Porcelain Sculpture: 1
