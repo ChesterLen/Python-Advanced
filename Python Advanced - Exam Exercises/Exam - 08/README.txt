@@ -68,4 +68,17 @@ Output
 
     Input: George, Hristo       Output: Hristo won the game with
            17 8 21 6 13 3 24            4 throws!
-           
+           16 D D D D D 14
+           7 D T T T D 15
+           23 D T B T D 2
+           9 D T T T D 22
+           19 D D D D D 10
+           12 18 4 20 5 11 1
+           (1, 0)
+           (2, 3)
+           (0, 0)
+           (4, 2)
+           (5, 1)
+           (3, 1)
+	   (0, 0)
+	   (2, 3)
