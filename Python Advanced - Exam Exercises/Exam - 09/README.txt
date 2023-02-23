@@ -75,3 +75,23 @@ Output
 "Good job! You scored {points} points, and you've won {prize}."
         ◦ If you did not win any prize, print the points you need to get at least the first prize: 
 "Sorry! You need {points} points more to win a prize."
+
+    Input: 10 30 B 4 20 24     Output: Sorry! You need 33 points more to win a prize.
+           7 8 27 23 11 19
+	   13 3 14 B 17 В
+	   12 5 21 22 9 6
+	   B 26 1 28 29 2
+	   25 B 16 15 B 18
+	   (1, 1)
+	   (20, 15)
+	   (4, 0)
+
+    Input: B 30 14 23 20 24    Output: Good job! You scored 299 points, and you've won Teddy Bear.
+           29 8 27 18 11 19
+	   13 3 B B 17 6
+	   28 5 21 22 9 B
+	   10 B 26 12 B 2
+	   25 1 16 15 7 4
+	   (0, 0)
+	   (2, 2)
+	   (2, 3)
