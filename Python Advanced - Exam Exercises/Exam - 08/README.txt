@@ -96,3 +96,13 @@ Input
     • There will be no input, just parameters passed to your function
 Output
     • The function should return the final dictionary
+
+    Test code: print(flights('Vienna', 256, 'Vienna', 26,              Output: {'Vienna': 282, 'Morocco': 98, 'Paris': 115}
+               'Morocco', 98, 'Paris', 115, 'Finish', 'Paris', 15))
+
+    Test code: print(flights('London', 0, 'New York', 9,               Output: Output: {'London': 0, 'New York': 309,
+               'Aberdeen', 215, 'Sydney', 2, 'New York',                       'Aberdeen': 215, 'Sydney': 2, 'Nice': 0}
+               300, 'Nice', 0, 'Finish'))
+
+    Test code: print(flights('Finish', 'New York', 90,                 Output: {}
+               'Aberdeen', 300, 'Sydney', 0))
