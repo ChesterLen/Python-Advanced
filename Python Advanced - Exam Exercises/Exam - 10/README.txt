@@ -62,3 +62,35 @@ Output
         ◦ If the snake eat enough food, print: "You won! You fed the snake."
     • On the second line print all food eaten: "Food eaten: {food quantity}"
     • In the end print the matrix.
+
+    Input: 6        Output: Game over!
+           -----S           Food eaten: 1
+           ----B-           ----..
+           ------           ----.-
+           ------           ------
+           --B---           ------
+           --*---           --.---
+           left             --.---
+           down
+	   down
+	   down
+	   left
+
+    Input: 7         Output: You won! You fed the snake.
+           --***S-           Food eaten: 10
+           --*----           --....-
+           --***--           --.----
+           ---**--           --...--
+           ---*---           ---..--
+           ---*---           ---S---
+           ---*---           ---*---
+           left              ---*---
+           left
+	   left
+	   down
+	   down
+	   right
+	   right
+	   down
+	   left
+	   down
