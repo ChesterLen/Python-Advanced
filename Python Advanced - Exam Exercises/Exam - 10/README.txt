@@ -114,3 +114,19 @@ Input
     • Parameters will be passed to your function
 Output
     • The function should return the new list of numbers
+
+    Test code: print(list_manipulator([1,2,3], "remove", "end"))                  Output: [1, 2]
+
+    Test code: print(list_manipulator([1,2,3], "remove", "beginning"))            Output: [2, 3]
+
+    Test code: print(list_manipulator([1,2,3], "add", "beginning", 20))           Output: [20, 1, 2, 3]
+
+    Test code: print(list_manipulator([1,2,3], "add", "end", 30))                 Output: [1, 2, 3, 30]
+
+    Test code: print(list_manipulator([1,2,3], "remove", "end", 2))               Output: [1]
+
+    Test code: print(list_manipulator([1,2,3], "remove", "beginning", 2))         Output: [5]
+
+    Test code: print(list_manipulator([1,2,3], "add", "beginning", 20, 30, 40))   Output: [20, 30, 40, 1, 2, 3]
+
+    Test code: print(list_manipulator([1,2,3], "add", "end", 30, 40, 50))         Output: [1, 2, 3, 30, 40, 50]
