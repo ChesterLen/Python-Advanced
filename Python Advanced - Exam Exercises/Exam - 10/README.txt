@@ -26,3 +26,17 @@ Output
         ◦ "Cherry Bombs: {count}"
         ◦ "Datura Bombs: {count}"
         ◦ "Smoke Decoy Bombs: {count}"
+
+    Input: 5, 25, 25, 115                                       Output: You don't have enough materials to fill the bomb pouch.
+           5, 15, 25, 35                                                Bomb Effects: empty
+				      					Bomb Casings: empty
+				      					Cherry Bombs: 0
+				      					Datura Bombs: 3
+				      					Smoke Decoy Bombs: 1
+
+    Input: 30, 40, 5, 55, 50, 100, 110, 35, 40, 35, 100, 80     Output: Bene! You have successfully filled the bomb pouch!
+           20, 25, 20, 5, 20, 20, 70, 5, 35, 0, 10                      Bomb Effects: 100, 80
+									Bomb Casings: 20
+									Cherry Bombs: 3
+									Datura Bombs: 4
+									Smoke Decoy Bombs: 3
