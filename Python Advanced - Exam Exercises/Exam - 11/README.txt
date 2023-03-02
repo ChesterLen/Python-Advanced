@@ -10,3 +10,11 @@ Input
     • On the second line you will receive the index of the task you are interested in
 Output
     • Single line: the clock-cycles that will pass until the task you are interested in is finished
+
+    Examples:
+
+    Input: 3, 1, 10, 1, 2         Output: 7
+           0
+
+    Input: 4, 10, 10, 6, 2, 99    Output: 32
+           2
