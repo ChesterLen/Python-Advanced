@@ -69,3 +69,15 @@ Input
 Output
     • There is no expected output
     • The function should return a string in the following format: "Best pureness {pureness_value} after {count_rotations} rotations"
+
+    Test code: test = ([4, 3, 2, 6], 4)              Output: Best pureness 26 after 3 rotations
+               result = best_list_pureness(*test)
+	       print(result)
+
+    Test code: test = ([7, 9, 2, 5, 3, 4], 3)        Output: Best pureness 78 after 2 rotations
+               result = best_list_pureness(*test)
+	       print(result)
+
+    Test code: test = ([1, 2, 3, 4, 5], 10)          Output: Best pureness 40 after 0 rotations
+               result = best_list_pureness(*test)
+	       print(result)
