@@ -36,3 +36,23 @@ Constrains
     • There will always be exactly 8 lines
     • There will always be exactly one King
     • Only the 3 symbols described above will be present in the input
+
+    Examples:
+
+    Input: . . . . . . . .     Output: [2, 5]
+           Q . . . . . . .             [5, 1]
+           . K . . . Q . .             [1, 0]
+           . . . Q . . . .
+           Q . . . Q . . .
+           . Q . . . . . .
+	   . . . . . . Q .
+	   . Q . Q . . . .
+
+    Input: . . . . . . . .     Output: The king is safe!
+           . . . Q . . . .
+	   . . . . . . . .
+	   . . . . . . . .
+	   Q . . . Q . . .
+	   . . K . . . . .
+	   . . . . . . Q .
+	   . . . Q . . . .
